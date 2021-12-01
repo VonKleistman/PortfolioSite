@@ -33,12 +33,19 @@ footer{
 section{
     width: 80%;
     color: whitesmoke;
+    text-align: center;
 }
 
 .separator{
     padding: .5rem;
 }
 
-#AboutMe{
-    text-align: center;
+.cardcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 1em;
 }
