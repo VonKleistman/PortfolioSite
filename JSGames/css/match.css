@@ -1,0 +1,43 @@
+.textcontainer
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+}
+
+#gameboard
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: 20px solid saddlebrown;
+    border-radius: 4em;
+    width: 80%;
+}
+
+#scoreboard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border-radius: 4em;
+    min-width: 40%;
+    background-color: antiquewhite;
+    border: 20px solid saddlebrown;
+}
+
+.matchcard
+{
+    margin: 1em;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4);
+}
+
+p
+{
+    text-align: center;
+}
