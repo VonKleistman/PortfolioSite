@@ -49,3 +49,15 @@ section{
 .card{
     margin: 1em;
 }
+
+.card-text, .card-title{
+    color: black;
+}
+
+.card-button{
+    width: 90%;
+}
+
+.contactlink{
+    color: whitesmoke;
+}
